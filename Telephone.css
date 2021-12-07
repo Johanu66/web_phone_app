@@ -1,0 +1,120 @@
+#telephone_complet{
+	width: 400px;
+	height: 790px;
+	margin: auto;
+	margin-top: 10px;
+	background: linear-gradient(315deg, black, 80%, #c3c3c3);
+	border-top-left-radius: 120px 100px;
+	border-top-right-radius: 120px 100px;
+	border-bottom-right-radius: 120px 100px;
+	border-bottom-left-radius: 120px 100px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+#ecran{
+	width: 80%;
+	margin: auto;
+	height: 570px;
+	background-color: white;
+}
+#menu{
+	width: 80%;
+	margin: auto;
+	color: white;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.bi-arrow-return-right{
+	transform: rotate(180deg);
+}
+#entete{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+#sous_entete{
+	width: 50%;
+	margin-left: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+#div_haut_parleur{
+	height: 15px;
+	width: 80px;
+	border: solid black 3px;
+	border-radius: 10px;
+	margin: auto;
+}
+#haut_parleur{
+	font-size: 3em;
+	line-height: 0px;
+	position: absolute;
+	margin-top: -13px;
+}
+#camera1{
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background: linear-gradient(70deg, #efdc97, #14100f, #ddcace);
+	margin: auto;
+}
+#camera2{
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, #4c8db5, #031320);
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+.button{
+	height: 60px;
+	width: 6px;
+	border-radius: 3px;
+	background-color: black;
+	position: absolute;
+	margin-left: -3px;
+}
+#volume_plus{
+	margin-top: 50px;
+}
+#volume_moins{
+	margin-top: 110px;
+}
+#allumage{
+	margin-top: 190px;
+}
+#entete_ecran_droite{
+	text-align: right;
+}
+.ecran_corp{
+	height: 100%;
+	width: 100%;
+}
+#accueil{
+	background-image: url("Johanu.jpeg");
+}
+#recherche{
+	margin-top: 5px;
+	height: 40px;
+	width: 100%;
+	border-radius: 20px;
+	border: white;
+}
+#heure{
+	margin-top: 15px;
+	line-height: 2.5em;
+	color: white;
+}
+#heure span{
+	font-size: 4em;
+}
+#heure strong{
+	font-weight: normal;
+	font-size: 0.9em;
+}
+#menu_ecran{
+	color: white;
+	position: absolute;
+	margin-top: 290px;
+}
